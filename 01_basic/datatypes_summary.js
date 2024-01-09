@@ -52,6 +52,33 @@ float      typeof      Number
 
 */
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename ="SinghDotCom"
+
+let anothername = myYoutubename
+anothername = "SinghISking"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+
+let userOne ={
+    emain: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
 
 
 
