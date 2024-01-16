@@ -1,12 +1,12 @@
-// // const name = "singh"
-// // const repoCount = 50
+const name = "singh"
+const repoCount = 50
 
 // // // console.log(name + repoCount + " Value");
 
 // // console.log(`hello my name is ${name} and my repoCount is ${repoCount}`);
 
-// const name = "Satyam"
-// let wshing = "Good Morning"
+const name2 = "Satyam"
+let wshing = "Good Morning"
 
 // console.log(`${wshing} ${name}`);
 
