@@ -17,9 +17,9 @@ const real_another_array = another_array.flat(Infinity)
 
 console.log(Array.isArray("singh"))
 console.log(Array.from("singh"))
-console.log(Array.from({name: "singh"})) //intresting
+// console.log(Array.from({name: "singh"})) //intresting
 
-
+console.log(Array.from({name:"singh"}));
 
 let score1 = 100
 let score2 = 200
