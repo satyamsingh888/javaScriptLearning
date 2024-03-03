@@ -46,3 +46,4 @@ x1=y=25-3-4; //x1=y=18
 
 const averageAge=(ageJonas+ageSimu) /2;
 console.log(ageJonas,ageSimu,averageAge);
+
