@@ -41,3 +41,10 @@ if(day=== "monday"){
 }else{
     console.log("Not a valid date");
 }
+
+
+
+
+
+
+
