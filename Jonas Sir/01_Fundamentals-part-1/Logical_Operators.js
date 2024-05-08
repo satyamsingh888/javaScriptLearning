@@ -3,7 +3,7 @@ const hasGoodVision = true; //B
 
 console.log(hasDriversLinces && hasGoodVision);
 console.log(hasDriversLinces || hasGoodVision);
-console.log( ! hasGoodVision);
+console.log(!hasGoodVision);
 
 // const shouldDrive = hasDriversLinces && hasGoodVision 
 

@@ -6,11 +6,8 @@ if(isOldEnough){
    else{
     const yearsLeft =18-age;
     console.log(`sara is too young .wait another ${yearsLeft} years :)`);
-   }
-
-  
-  
-  const birtYear =2024;
+   } 
+   const birtYear =2024;
    let century;
    if(birtYear<=2000){
      century =20;
