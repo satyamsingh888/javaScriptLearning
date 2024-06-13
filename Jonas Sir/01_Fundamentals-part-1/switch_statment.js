@@ -17,7 +17,7 @@ switch(day) {
      case 'friday':
         console.log("record Videos");
         break;
-      case "saturday":  
+      case "saturday": 
       case "sunday":
         console.log("Enjoy the weekend :)");  
         break;
@@ -40,7 +40,7 @@ if(day=== "monday"){
     console.log("record Videos");
 }else{
     console.log("Not a valid date");
-}
+} 
 
 
 
