@@ -7,13 +7,13 @@ let javaScript =true;
 // console.log(typeof "singh");
 
 let year;
-// console.log(year);
-// console.log(typeof year);
+console.log(year);
+console.log(typeof year);
 
 year=1998;
-// console.log(typeof year);
+console.log(typeof year);
 
-// console.log(typeof null);
+console.log(typeof null);
 
 
 //********************* Let Const Var */

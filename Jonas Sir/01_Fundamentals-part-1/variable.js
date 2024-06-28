@@ -1,11 +1,11 @@
 // console.log("Singh");
-let js="amazing";
-console.log(40+5+45-34);
-console.log("jonas");
-console.log(23);
+// let js="amazing";
+// console.log(40+5+45-34);
+// console.log("jonas");
+// console.log(23);
 
-let firstName ="Singh";
-console.log(firstName);
+// let firstName ="Singh";
+// console.log(firstName);
 
 let jonas_satyam="sing"
 
