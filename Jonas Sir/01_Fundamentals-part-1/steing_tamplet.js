@@ -1,20 +1,20 @@
-const firstName ="Satyam"
-const job="Student"
-const birthYear=2001;
-const year =2024;
+const firstName = 'satyam';
+const job ='student';
+const birthYear = 2001;
+const year = 2037
 
-const satyam ="I'm" + firstName + ',a' + (year-birthYear)+' years old' + job + '!';
+const satyam = "I'm " + firstName + ',a ' + (year - birthYear) + ' years old '+ job + '!';
 console.log(satyam);
 
-const satyamNew =`I 'm ${firstName}, a ${year-birthYear} years old ${job} !`;
-console.log(satyamNew);
+const SatyamNew = `I'm ${firstName} , a ${year-birthYear} years old ${job}!`;
+console.log(SatyamNew);
 
-console.log(`Just a regular string....`);
+console.log(`Just regular string...`);
 
-console.log(`String\n\
-multiple\n\
-lines`);
+console.log(`string with \n\
+    multiple \n\
+    lines  `);
 
-console.log(`string
-multiple
-lines`);
+    console.log(`string
+        multiple
+        lones`);

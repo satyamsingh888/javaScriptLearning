@@ -1,17 +1,26 @@
-const age =20;
-const isOldEnough =age>=18;
+const age = 15;
+const isOldEnough = age >=18;
+
 if(isOldEnough){
-    console.log('sara can start driving licemce 🚗');
+console.log(`sarah can start driving licence 🚗`);
+
 }
-   else{
-    const yearsLeft =18-age;
-    console.log(`sara is too young .wait another ${yearsLeft} years :)`);
-   } 
-   const birtYear =2024;
-   let century;
-   if(birtYear<=2000){
-     century =20;
-   }else{
-    century =21
-   }
-   console.log(century);
+else{
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young . Wait another ${yearsLeft} years`);
+}
+
+
+
+
+
+const birthYear = 2001;
+let century;
+if(birthYear <= 2000){
+  century = 20
+
+}else{
+   century = 21;
+}
+
+console.log(century);
