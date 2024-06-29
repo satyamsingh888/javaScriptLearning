@@ -1,5 +1,5 @@
 const hasDriversLinces = true; //A
-const hasGoodVision = true; //B
+const hasGoodVision = false; //B
 
 console.log(hasDriversLinces && hasGoodVision);
 console.log(hasDriversLinces || hasGoodVision);
