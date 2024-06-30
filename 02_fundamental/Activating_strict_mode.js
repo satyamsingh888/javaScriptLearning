@@ -1,12 +1,15 @@
 'use strict';
 
-let hasDriversLicence = false;
+let hasDriversLinces = false;
 const passTest = true;
 
-if(passTest) hasDriversLicence =true;
-if(hasDriversLicence) console.log("I can drive");
 
-// const interface = 'Audio'
-// const private =547;
+if(passTest) hasDriversLinces = true;
+if(hasDriversLinces) console.log('I can drive')
+
+    // const interface = 'Audio';
+    // const private = 344;
+
+
 
 
