@@ -1,16 +1,21 @@
 //Arrow Function
 
-const calcAge1 = birthYear => 2037 - birthYear;
-const age3 = calcAge1(1991);
-console.log(age3);
+const age = birthYear => 2024 - birthYear;
+// console.log(age(2001));
+const age1 = age(2001);
+// console.log(age1);
 
 
-const yearsUntilRetirment = (birthyear , firstName) => {
-    const age = 2037 - birthyear;
-    const retirment = 65- age;
-    // return retirment;
-    return `${firstName} retirs in ${retirment} years`
-}
+const yearsuntilRetirement = (birthYear, firstname )=> {
+const age=  2024 - birthYear;
+console.log(`${firstname} is ${age} years old`);
+const retirment = 50 - age;
+return `${firstname} will retire in ${retirment} years`;
+};
+console.log(yearsuntilRetirement(2001, "satyam"));
+console.log(yearsuntilRetirement(2000, "Aniket"));
 
-console.log(yearsUntilRetirment(1991, 'satyam'));
-console.log(yearsUntilRetirment(1980, 'jonas'));
+
+
+
+

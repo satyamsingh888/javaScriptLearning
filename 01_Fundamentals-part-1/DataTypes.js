@@ -3,11 +3,11 @@ let javaScript =true;
 
 // console.log(typeof true);
 // console.log(typeof javaScript);
-// console.log(typeof 23);
+// console.log(typeof 23); 
 // console.log(typeof "singh");
 
 let year;
-console.log(year);
+console.log(year); 
 console.log(typeof year);
 
 year=1998;

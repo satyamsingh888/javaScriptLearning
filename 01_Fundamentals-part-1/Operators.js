@@ -16,9 +16,9 @@ console.log(firstname+ ' '+lastname);
 let x = 10+5;
 x+=5; // x=x+5 = 20
 x*=4; // x =x*4 = 100
-x++;
-x--;
-x--;
+// x++;
+// x--;
+// x--;
 console.log(x);
 
 

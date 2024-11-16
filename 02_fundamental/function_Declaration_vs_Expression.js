@@ -1,18 +1,15 @@
 //Function declaration
 
-function calAge1(birthYear){
-    const age = 2037-birthYear;
-    return age;
+function callAge1(birthYEar) {
+  // const age = 2024 - birthYEar;
+  // return age;
+  return 2024 - birthYEar;
 }
-const age1=calAge1(1991);
-
-console.log(age1);
+console.log(callAge1(2001));
 
 
 //Function expression
-
-const calAge2 = function(birthyear){
-    return 2037- birthyear
-}
-const age2 = calAge2(1991);
-console.log(age1,age2);
+const callAge2 = function (birthYEar) {
+  return 2024 - birthYEar;
+};
+console.log(callAge2(2001));

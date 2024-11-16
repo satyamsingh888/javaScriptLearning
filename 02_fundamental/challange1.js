@@ -19,8 +19,6 @@ const checkWinner = function(avgDolphine, avgKolas){
 checkWinner(scoreDolphine,scoreKoalas)
 
 checkWinner(576,112);
-
-
 //Test 2 
 
  scoreDolphine = calcAverage(85,54,41);
