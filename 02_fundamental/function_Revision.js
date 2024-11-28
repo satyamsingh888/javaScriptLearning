@@ -1,20 +1,19 @@
+const calcAge = function (birthYear) {
+  return 2024 - birthYear;
+};
 
-const calAge = function(birthYear){
-    return 2037 - birthYear;
-}
+const yearsUntilRetirment = (birthYear, firstName) => {
+  const age = calcAge(birthYear);
+  // return `${firstName} is ${age} years old`     function have multiple return statment but only one can be excute,  based oyn the condition 
+  console.log(`${firstName} is ${age} years old`);
+  const retirment = 65 - age;
+  if(retirment > 0){
 
-const yearsUntilRetirment = (birthYear , firstName) =>{
-    const age = calAge(birthYear);
-    const retirment = 65 - age;
-if(retirment > 0){
-    console.log(`${firstName} retire in ${retirment} years`);
-    return retirment;
+      return `${firstName} will retire in ${retirment} years;`;
+  } else{
+     return `${firstName} has been allready retired`;
+  }
+};
 
-}else{
-    console.log(`${firstName}has already retired`);
-    return -1;
-}
-}
-
-console.log(yearsUntilRetirment(2001, 'satyam'));
-console.log(yearsUntilRetirment(1950, 'Thanos'));
+console.log(yearsUntilRetirment(1945, "satyam"));
+console.log(yearsUntilRetirment(2000, "Aryansh"));
