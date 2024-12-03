@@ -1,39 +1,30 @@
-const friends = ['satyam', 'Aman', 'Aniket']
-const newLength = friends.push('Jay');
-//Add Elements
+const friends = ['Aman', 'Sanit', 'Aniket'];
+console.log(friends);
+// Add Element
+const newLength = friends.push('satyam');
 console.log(friends);
 console.log(newLength);
+console.log(friends.length);
 
-friends.unshift('John');
+friends.unshift('king');
 console.log(friends);
 
-//Remove elements
-// friends.pop(); // Last
-const popped = friends.pop();
+//Remove element
+const popped = friends.pop();     // Last 
+// const popped = friends.pop()
 console.log(popped);
-console.log(friends);
 
-// const popped1 = friends.pop();
-// console.log(popped1);
-
+// const shifted = friends.shift();
 // friends.shift();
-// console.log(friends);
+// console.log(shifted);
 
-const shifted = friends.shift();
-console.log(shifted)
-
-console.log(friends.indexOf('satyam'));
-console.log(friends)
+console.log(friends.indexOf('Sanit'));
 
 friends.push(23);
-console.log(friends.includes('satyam'))
-console.log(friends.includes('Jay'))
+console.log(friends.includes('sanit'));
+console.log(friends.includes('Sanit'));
 console.log(friends.includes(23));
 
-
-
-if(friends.includes('Shyam')){
-    console.log('you have  nice friend ');
-} else {
-    console.log('you donnt have friend');
+if (friends.includes('Sanit')){
+    console.log('you have a friend called Sanit');
 }
