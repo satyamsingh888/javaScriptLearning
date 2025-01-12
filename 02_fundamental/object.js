@@ -36,5 +36,3 @@ console.log(singh);
 
 const challanges = `${singh.firstName} ${singh.lastName} have ${singh.friends.length} friends, and his name is ${singh.friends}, and his best friends is ${singh.friends[0]}`;
 console.log(challanges);
-
-
