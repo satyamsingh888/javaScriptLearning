@@ -31,7 +31,7 @@ console.log(main,secondary);
 [main, secondary] = [secondary,main]
 console.log(main,secondary);
 
-//Recive 2 returns values from a function
+//Recive 2 returns values from a function0
 const [starter,mainCourse]=restaurant.order(2, 0); 
 console.log(starter,mainCourse);
 
