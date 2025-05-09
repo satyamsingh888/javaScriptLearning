@@ -54,7 +54,7 @@ const obj = {a:23, b:7, c:6};
 ({a,b} = obj);
 console.log(a,b);
 
-//Nested object
+//Nested object                                                           
 const{
   fri: {open:o, close:c},
 
