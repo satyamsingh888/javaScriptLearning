@@ -4,7 +4,7 @@ const jonasArray = [
     2037 - 1991,
     'teacher',
     ['Michael', 'Peter', 'steven']
-];
+];    
 
 const jonas = {
     FirstName : 'satyam',
@@ -37,6 +37,7 @@ jonas['twitter'] = '@jonasschemedtman';
 console.log(jonas);
 
 console.log(`${jonas.FirstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+
 
 
 
