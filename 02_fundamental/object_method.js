@@ -1,39 +1,35 @@
-const jonas = {
-    firstName : 'satyam',
-    lastName : 'singh',
-    birthYear: 1991,
-    job: 'student',
-    friends:  ['Michael', 'Peter', 'steven'],
-    hasDrivingLicence : true,
+const singh = {
+  "name": "Satyam",
+  "lastName": "Singh",
+  "birthYear": 2001,
+  "job": "developer",
+  "friends": ["Michael", "Aniket", "Sanit"],
+  "location": "india",
+  "twitter": "@satyam",
+  hasDriversLicence: true,
 
-    // calAge: function(birthYear){
-    //     return 2037 - birthYear;
-    // }
-    // calAge: function(){
-    //     console.log(this);
-    //     return 2037 - this.birthYear;
+  
+  
+  // calAge: function(birthYear){
+    //   return 2024-birthYear;
     // }
     calAge: function(){
-        this.age = 2037 - this.birthYear;
-        return  this.age;
+      this.age = 2024 - this.birthYear;
+      return this.age;
     },
-    getSummary: function(){
-        return `${this.firstName} is a ${this.calAge()} years old ${jonas.job}, and he has ${this.hasDrivingLicence  ? 'a' : 'no ' }drivers licence`
+    challanges: function (){
+      return `${singh.name} ${singh.lastName} is a ${singh.calAge()} years old, and he has ${singh.hasDriversLicence ? 'a' : 'no'} drivers licence`
     }
-    
-};
+  };
+console.log(singh.calAge(2001));
+// console.log(singh["calAge"](2001));
 
-console.log(jonas.calAge());
-
-console.log(jonas.age);
-console.log(jonas.age);
-
-// Chalange
-//'jonas is 46 years old teacher, and he has a driver licence"..
-console.log(jonas.getSummary());
+console.log(singh.age);
+console.log(singh.calAge());
+console.log(singh.calAge());
 
 
-
+console.log(singh.challanges());
 
 
 
